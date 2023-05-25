@@ -87,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
 
             } else if (item.getItemId() == 1) {
-                Intent intentCall = new Intent(Intent.ACTION_DIAL, Uri.parse("tel: " + 18001111111));
+                Intent intentCall = new Intent(Intent.ACTION_DIAL, Uri.parse("tel: " +18001111111));
                 startActivity(intentCall);
 
             }
@@ -100,7 +100,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
 
             } else if (item.getItemId() == 1) {
-                Intent intentCall = new Intent(Intent.ACTION_DIAL, Uri.parse("tel: " + 18003633333));
+                Intent intentCall = new Intent(Intent.ACTION_DIAL, Uri.parse("tel: " +18003633333));
                 startActivity(intentCall);
 
             }
@@ -112,7 +112,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
 
             } else if (item.getItemId() == 1) {
-                Intent intentCall = new Intent(Intent.ACTION_DIAL, Uri.parse("tel: " + 18002222121));
+                Intent intentCall = new Intent(Intent.ACTION_DIAL, Uri.parse("tel: " +18002222121));
                 startActivity(intentCall);
 
             }
